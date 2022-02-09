@@ -10,5 +10,6 @@ wss.on('connection',function connection(ws){
     ws.on("message",function incoming(message){
         console.log("recieved: %s",message);
     });
+    console.log(`a new user has connected`,ws);
 ws.send("something");
 })
