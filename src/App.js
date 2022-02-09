@@ -1,5 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+
+// websocket very raw 
+// ws is a core 
+
+
 
 function App() {
   return (
